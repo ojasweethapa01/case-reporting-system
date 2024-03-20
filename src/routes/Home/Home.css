@@ -1,0 +1,25 @@
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(244, 199, 140);
+  height: 50px;
+}
+.home-header h3 {
+  color: rgb(165, 100, 2);
+  padding: 15px 10px 20px 10px;
+}
+.title {
+  text-align: center;
+  padding: 10px;
+}
+.button {
+  padding-top: 10px;
+  margin: 7px;
+  height: 35px;
+}
+.cases-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

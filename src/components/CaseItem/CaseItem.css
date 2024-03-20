@@ -1,0 +1,36 @@
+.case-item {
+  display: flex;
+
+  /* justify-content: space-between; */
+  margin: 8px 0;
+}
+
+.case-item-title {
+  margin-right: auto;
+}
+
+.case-item-date {
+  margin-right: 1rem;
+}
+
+.edit-button {
+  color: blue;
+  background-color: unset;
+  border: unset;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.delete-button {
+  color: red;
+  background-color: unset;
+  border: unset;
+  cursor: pointer;
+}
+.case-item-description {
+  margin-right: 8px;
+}
+.delete-button:hover,
+.edit-button:hover {
+  text-decoration: underline;
+}

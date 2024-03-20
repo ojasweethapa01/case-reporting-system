@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  overflow: auto;
+}
+
+.button {
+  background-color: coral;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.input-group {
+  margin: 16px 0;
+}
+
+.error-text {
+  color: red;
+  margin-top: 8px;
+}
